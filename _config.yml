@@ -3,6 +3,14 @@ description:
 theme: just-the-docs
 
 url: https://cabbagelol.github.io/kook-bot-docs/
+favicon_ico: "/assets/images/favicon.png"
+logo: "/assets/images/favicon.png"
 
 aux_links:
-  BFBAN网站: https://bfban.com
+  BFBAN 网站: https://bfban.com
+  BFBAN 社区: https://kook.top/wHwxhw
+
+nav_external_links:
+  - title: KOOK 社区
+    url: https://kook.top/wHwxhw
+    hide_icon: false

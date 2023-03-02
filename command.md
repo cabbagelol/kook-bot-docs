@@ -1,6 +1,7 @@
 ---
 title: 指令
-layout: command
+layout: home
+nav_order: 2
 ---
 
 ()表示可选，[]表示必选
@@ -14,26 +15,26 @@ layout: command
 
 ## 查询玩家
 
-| 指令                                                                         | 描述           | 例子                           |
-|----------------------------------------------------------------------------|--------------|------------------------------|
-| .checkban                                                                  | -            | -                            |
-| .checkban id [id:number] (v:number)                                        | 使用EAid查询玩家状态 | .checkban id 2000000         |
-| .checkban name [name:string] (v:number) (limit:5) (sort:default) (limit:5) | 使用名字查询玩家状态   | .checkban name cabb limit:10 |
+| 状态  | 指令                                                                         | 描述           | 例子                           | 版本  |
+|-----|----------------------------------------------------------------------------|--------------|------------------------------|-----|
+| []  | .checkban                                                                  | -            | -                            | 1   |
+| [x] | .checkban id [id:number] (v:number)                                        | 使用EAid查询玩家状态 | .checkban id 2000000         | 1   |
+|   [x]  | .checkban name [name:string] (v:number) (limit:5) (sort:default) (limit:5) | 使用名字查询玩家状态   | .checkban name cabb limit:10 | 1   |
 
 ## widget
 
-| 指令                                 | 描述                       | 例子                       |
-|------------------------------------|--------------------------|--------------------------|
-| .widget                            | -                        | -                        |
-| .widget img [id:number] (v:number) | 生成图片小组件，参考网站生成分享图片[https://bfban.gametools.network/player/1005868194472/share(https://bfban.gametools.network/player/1005868194472/share) | .widget img 1000000 |
+|     | 指令                                 | 描述                                                                                 | 例子                       |
+|-----|------------------------------------|------------------------------------------------------------------------------------|--------------------------|
+| []  | .widget                            | -                                                                                  | -                        |
+| []  | .widget img [id:number] (v:number) | 生成图片小组件，参考网站生成分享图片[链接](https://bfban.gametools.network/player/1005868194472/share) | .widget img 1000000 |
 
 ## 网站统计
 
-| 指令                                   | 描述                  | 例子                    |
-|--------------------------------------|---------------------|-----------------------|
-| .sitestats                           | -                   | -                     |
-| .sitestats site (v:number)           | 网站统计，返回统计信息         | .sitestats site  |
-| .sitestats admin (v:number)          | 网站统计，返回站点管理员统计      | .sitestats admin |
-| .sitestats hot (v:number) (time:string) | 网站统计，热点案件,time不选择一周 | .sitestats hot   |
+|     | 指令                                   | 描述                  | 例子                    | 版本  |
+|-----|--------------------------------------|---------------------|-----------------------|-----|
+| [x] | .sitestats                           | -                   | -                     | 1   |
+| [x] | .sitestats site (v:number)           | 网站统计，返回统计信息         | .sitestats site  | 1   |
+| [x] | .sitestats admin (v:number)          | 网站统计，返回站点管理员统计      | .sitestats admin | 1   |
+| [x] | .sitestats hot (v:number) (time:string) | 网站统计，热点案件,time不选择一周 | .sitestats hot   | 1   |
 
 time: daily/week/monthly/yearly

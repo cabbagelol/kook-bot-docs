@@ -1,9 +1,19 @@
 ---
 title: 欢迎
 layout: home
+nav_order: 1
+---
+# 机器人文档
+### 这里由开发者创建的`BFBAN-KOOK-BOT`文档, 机器人提供BFBAN上查询服务
+
+[邀请机器人](join.md){: .btn .btn-purple }
+[访问BOT Github仓库](https://github.com/BFBAN/kook-bot){: .btn .btn-outline }
+[访问BOT Docs Github仓库](https://cabbagelol.github.io/kook-bot-docs){: .btn .btn-outline }
+
 ---
 
-这里由开发者创建的`BFBAN-KOOK-BOT`文档
+{: .highlight }
+目前无论是机器人本身或是文档都不完整，请给我一些时间来完事它们
 
 文档面向:
 
