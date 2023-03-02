@@ -4,11 +4,14 @@ layout: home
 nav_order: 1
 ---
 # 机器人文档
+
 ### 这里由开发者创建的`BFBAN-KOOK-BOT`文档, 机器人提供BFBAN上查询服务
 
-[邀请机器人](join.md){: .btn .btn-purple }
+<br>
+
+[邀请机器人](join){: .btn .btn-purple }
 [访问BOT Github仓库](https://github.com/BFBAN/kook-bot){: .btn .btn-outline }
-[访问BOT Docs Github仓库](https://cabbagelol.github.io/kook-bot-docs){: .btn .btn-outline }
+[访问BOT Docs Github仓库](https://github.com/cabbagelol/kook-bot-docs){: .btn .btn-outline }
 
 ---
 
@@ -17,7 +20,7 @@ nav_order: 1
 
 文档面向:
 
-- **使用者**，请前往 [命令集](./command.md)查阅详情，指令集提供了`指令`对应主参数与次参的配置，以及示例。
+- **使用者**，请前往 [命令集](command)查阅详情，指令集提供了`指令`对应主参数与次参的配置，以及示例。
 - **开发者**, 略
 
 如果需要更多帮助可以在BFBAN KOOK开发者社区找到我(@Cabbagelol)
