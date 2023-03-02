@@ -3,8 +3,13 @@ description:
 theme: just-the-docs
 
 url: https://cabbagelol.github.io/kook-bot-docs/
-favicon_ico: "/assets/images/favicon.png"
-logo: "/assets/images/favicon.png"
+favicon_ico: "./assets/images/favicon.png"
+logo: "./assets/images/favicon.png"
+
+callouts:
+  warning:
+    title: Warning
+    color: red
 
 aux_links:
   BFBAN 网站: https://bfban.com
