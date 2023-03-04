@@ -29,11 +29,3 @@ ps: ()表示可选，[]表示必选
 
 - `v`表示版本，指令存在版本迭代, 例子(.help v:1)
 - `debug`是否中测试，返回测试用例, 例子(.help debug:true)
-
----
-
-- [帮助](help)
-- [邀请机器人](invitation)
-- [检查案件](checkban)
-- [部件](widget)
-- [统计](sitestats)
