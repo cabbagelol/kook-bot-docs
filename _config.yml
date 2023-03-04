@@ -2,9 +2,10 @@ title: bfban kook bot
 description:
 theme: just-the-docs
 
-url: https://cabbagelol.github.io/kook-bot-docs/
-favicon_ico: "./assets/images/favicon.png"
-logo: "./assets/images/favicon.png"
+url: https://cabbagelol.github.io/kook-bot-docs
+favicon_ico: "/assets/images/logo.png"
+logo: "/assets/images/logo.png"
+search_enabled: true
 
 callouts:
   warning:

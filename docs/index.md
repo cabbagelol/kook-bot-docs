@@ -9,18 +9,19 @@ nav_order: 1
 
 <br>
 
-[邀请机器人](join){: .btn .btn-purple }
+[邀请机器人](join.md){: .btn .btn-purple }
 [访问BOT Github仓库](https://github.com/BFBAN/kook-bot){: .btn .btn-outline }
 [访问BOT Docs Github仓库](https://github.com/cabbagelol/kook-bot-docs){: .btn .btn-outline }
 
 ---
 
-{: .highlight }
+{: .note }
 目前无论是机器人本身或是文档都不完整，请给我一些时间来完事它们
 
 文档面向:
 
-- **使用者**，请前往 [命令集](command)查阅详情，指令集提供了`指令`对应主参数与次参的配置，以及示例。
-- **开发者**, 略
+- **用户**，请前往 [命令集](command/command.md)查阅详情，指令集提供了`指令`对应主参数与次参的配置，以及示例。
+- **管理员**, 略
+- **开发**，访问^
 
 如果需要更多帮助可以在BFBAN KOOK开发者社区找到我(@Cabbagelol)
