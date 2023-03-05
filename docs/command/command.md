@@ -28,4 +28,5 @@ ps: ()表示可选，[]表示必选
 它们都在`parameters`中添加
 
 - `v`表示版本，指令存在版本迭代, 例子(.help v:1)
+- `lang`语言，提供中、英版本; 'zh-CN'、'en-US'
 - `debug`是否中测试，返回测试用例, 例子(.help debug:true)

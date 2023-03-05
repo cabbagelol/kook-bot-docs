@@ -3,7 +3,7 @@ description: test
 theme: just-the-docs
 
 # bundle exec jekyll serve
-port: 4001
+port: 4002
 
 url: https://cabbagelol.github.io/kook-bot-docs
 favicon_ico: "/assets/images/logo.png"
