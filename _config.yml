@@ -3,12 +3,13 @@ description: test
 theme: just-the-docs
 
 # bundle exec jekyll serve
-port: 4002
+port: 4004
 
 url: https://cabbagelol.github.io/kook-bot-docs
 favicon_ico: "/assets/images/logo.png"
 logo: "/assets/images/logo.png"
 search_enabled: true
+color_scheme: main
 
 callouts:
   warning:
@@ -22,4 +23,7 @@ aux_links:
 nav_external_links:
   - title: KOOK 社区
     url: https://kook.top/wHwxhw
+    hide_icon: false
+  - title: BFBAN 材料设计
+    url: https://github.com/BFBAN/exterior-design
     hide_icon: false
