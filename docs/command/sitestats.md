@@ -7,7 +7,7 @@ nav_order: 5
 
 # 网站统计
 
-查询网站信息，它们都在[bfban.gametools.network/sitestats](https://bfban.gametools.network/sitestats)能看见
+查询网站信息，它们都在[bfban.com/sitestats](https://bfban.com/sitestats)能看见
 
 | 指令                                   | 描述                    | 例子                    | 版本  |
 |--------------------------------------|-----------------------|-----------------------|-----|
